@@ -5,14 +5,14 @@ Multipurpose Single Page Template (based on the design created by Raphael Lechne
 
 WordPress Plugins:
 
-ACF Content Analysis for Yoast SEO
-Advanced Custom Fields PRO
-Advanced Custom Fields: Font Awesome
-Advanced Custom Fields: Post Type Selector
-Contact Form 7
-Intuitive Custom Post Order
-Regenerate Thumbnails
-Widget CSS Classes
-WP Migrate DB
-Yoast SEO
+1. ACF Content Analysis for Yoast SEO
+2. Advanced Custom Fields PRO
+3. Advanced Custom Fields: Font Awesome
+4. Advanced Custom Fields: Post Type Selector
+5. Contact Form 7
+6. Intuitive Custom Post Order
+7. Regenerate Thumbnails
+8. Widget CSS Classes
+9. WP Migrate DB
+10. Yoast SEO
 
