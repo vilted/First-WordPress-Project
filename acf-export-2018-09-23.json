@@ -1,0 +1,1018 @@
+[
+    {
+        "key": "group_5b98be886e3d2",
+        "title": "Gallery",
+        "fields": [
+            {
+                "key": "field_5b98bedb2d3e2",
+                "label": "Homepage Link",
+                "name": "g_homepage_link",
+                "type": "page_link",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "post_type": [
+                    "page"
+                ],
+                "taxonomy": [],
+                "allow_null": 0,
+                "allow_archives": 1,
+                "multiple": 0
+            },
+            {
+                "key": "field_5b98bf0f2d3e3",
+                "label": "Single Photo Repeater",
+                "name": "g_single_photo_repeater",
+                "type": "repeater",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "row",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5b98bf412d3e4",
+                        "label": "Photo",
+                        "name": "g_photo",
+                        "type": "image",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "url",
+                        "preview_size": "large",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_5b98bf692d3e5",
+                        "label": "Photo Name",
+                        "name": "g_photo_name",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_5b98c8f9a0afc",
+                "label": "Homepage",
+                "name": "g_homepage",
+                "type": "radio",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": [
+                    "Image",
+                    "Text"
+                ],
+                "allow_null": 0,
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": 0,
+                "layout": "vertical",
+                "return_format": "value"
+            },
+            {
+                "key": "field_5b98c959a0afd",
+                "label": "Homepage Icon",
+                "name": "g_homepage_icon",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "logo-image",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5b98c983a0afe",
+                "label": "Homepage Text",
+                "name": "g_homepage_text",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "templates\/gallery.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_5b9667906ca76",
+        "title": "Intro Navigation",
+        "fields": [
+            {
+                "key": "field_5b9667aa3de72",
+                "label": "Logo Type",
+                "name": "in_logo_type",
+                "type": "radio",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": [
+                    "Image",
+                    "Text"
+                ],
+                "allow_null": 0,
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": 0,
+                "layout": "vertical",
+                "return_format": "value"
+            },
+            {
+                "key": "field_5b96680a3de73",
+                "label": "Logo Image",
+                "name": "in_logo_image",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "thumbnail",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5b9668643de74",
+                "label": "Logo Text",
+                "name": "in_logo_text",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5b97a717070a0",
+                "label": "Responsive Menu",
+                "name": "in_responsive_menu",
+                "type": "radio",
+                "instructions": "Choose how to show menu in responsive design",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": [
+                    "Image",
+                    "Text"
+                ],
+                "allow_null": 0,
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "",
+                "layout": "vertical",
+                "return_format": "value"
+            },
+            {
+                "key": "field_5b97a7ee070a2",
+                "label": "Responsive Menu Icon",
+                "name": "in_responsive_menu_icon",
+                "type": "image",
+                "instructions": "Add icon for responsive design menu",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "thumbnail",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5b97a835070a3",
+                "label": "Responsive Menu Text",
+                "name": "in_responsive_menu_text",
+                "type": "text",
+                "instructions": "Add title for responsive design menu",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "templates\/homepage.php"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_5b96ba1d15a91",
+        "title": "Intro Content",
+        "fields": [
+            {
+                "key": "field_5b96ba67df34d",
+                "label": "Heading One",
+                "name": "ic_heading_one",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5b96baaadf34e",
+                "label": "Heading Two",
+                "name": "ic_heading_two",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5b96babedf34f",
+                "label": "Button Text",
+                "name": "ic_button_text",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5b96bd3013f8a",
+                "label": "Button Link",
+                "name": "ic_button_link",
+                "type": "link",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array"
+            },
+            {
+                "key": "field_5b98f99da8485",
+                "label": "Background Image",
+                "name": "ic_background_image",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "large",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "templates\/homepage.php"
+                }
+            ]
+        ],
+        "menu_order": 1,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_5b96ca0c8c266",
+        "title": "About Content",
+        "fields": [
+            {
+                "key": "field_5b96ca1cb55fa",
+                "label": "Heading",
+                "name": "ac_heading",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5b96ca50b55fb",
+                "label": "About Text",
+                "name": "ac_about_text",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5b96ca6ab55fc",
+                "label": "One Service Repeater",
+                "name": "ac_one_service_repeater",
+                "type": "repeater",
+                "instructions": "Add service icon, service title and short description",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 1,
+                "max": 0,
+                "layout": "row",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5b96cadbb55fd",
+                        "label": "Service Icon",
+                        "name": "ac_service_icon",
+                        "type": "image",
+                        "instructions": "Add service icon, recommended size 64px * 64px, max size 100px * 100px",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "url",
+                        "preview_size": "full",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": 100,
+                        "max_height": 100,
+                        "max_size": "",
+                        "mime_types": ""
+                    },
+                    {
+                        "key": "field_5b96cbccb55fe",
+                        "label": "Service Name",
+                        "name": "ac_service_name",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    },
+                    {
+                        "key": "field_5b96cbe1b55ff",
+                        "label": "Service Description",
+                        "name": "ac_service_description",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "maxlength": ""
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "templates\/homepage.php"
+                }
+            ]
+        ],
+        "menu_order": 2,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_5b97613862b77",
+        "title": "Work",
+        "fields": [
+            {
+                "key": "field_5b9761470728c",
+                "label": "First Photo",
+                "name": "w_first_photo",
+                "type": "image",
+                "instructions": "Photo will be cutted and fitted to 400px X 300px container; recommended photo size >= 400px X 300px",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "works",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5b9762190728d",
+                "label": "Second Photo",
+                "name": "w_second_photo",
+                "type": "image",
+                "instructions": "Photo will be cutted and fitted to 400px X 300px container; recommended photo size >= 400px X 300px",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "works",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5b9762510728e",
+                "label": "Third Photo",
+                "name": "w_third_photo",
+                "type": "image",
+                "instructions": "Photo will be cutted and fitted to 400px X 300px container; recommended photo size >= 400px X 300px",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "works",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5b9762700728f",
+                "label": "Forth Photo",
+                "name": "w_forth_photo",
+                "type": "image",
+                "instructions": "Photo will be cutted and fitted to 400px X 300px container; recommended photo size >= 400px X 300px",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "works",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5b97628c07290",
+                "label": "Gallery Name",
+                "name": "w_gallery_name",
+                "type": "text",
+                "instructions": "Add Gallery Name, character limit 100",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": 100
+            },
+            {
+                "key": "field_5b9762f807291",
+                "label": "Gallery Description",
+                "name": "w_gallery_description",
+                "type": "text",
+                "instructions": "Add short Gallery Description, character limit 100",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": 100
+            },
+            {
+                "key": "field_5b97635107292",
+                "label": "View Gallery Button Text",
+                "name": "w_view_gallery_button_text",
+                "type": "text",
+                "instructions": "Add View Gallery Button text, character limit 50",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": 49
+            },
+            {
+                "key": "field_5b98dc9df0924",
+                "label": "View Gallery Button Link",
+                "name": "w_view_gallery_button_link",
+                "type": "link",
+                "instructions": "Add View Gallery Button link to Gallery",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "templates\/homepage.php"
+                }
+            ]
+        ],
+        "menu_order": 3,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_5b977668aa4fb",
+        "title": "Contact Form",
+        "fields": [
+            {
+                "key": "field_5b9778b2dcd22",
+                "label": "Contact Form Shortcode",
+                "name": "contact_form_shortcode",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            },
+            {
+                "key": "field_5b977dbc8b0f0",
+                "label": "Contact Form Name",
+                "name": "cf_contact_form_name",
+                "type": "text",
+                "instructions": "Type Contact Form Heading, characters limit 100",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "Contact Us!",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": 100
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "templates\/homepage.php"
+                }
+            ]
+        ],
+        "menu_order": 4,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    },
+    {
+        "key": "group_5b97837099a97",
+        "title": "Social Networks Menu and Credits",
+        "fields": [
+            {
+                "key": "field_5b978382b7dcd",
+                "label": "Social Network Navigation Repeater",
+                "name": "snm_social_network_navigation_repeater",
+                "type": "repeater",
+                "instructions": "Add Your Social Networks Information",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "collapsed": "",
+                "min": 0,
+                "max": 0,
+                "layout": "row",
+                "button_label": "",
+                "sub_fields": [
+                    {
+                        "key": "field_5b9783c5b7dce",
+                        "label": "Social Network Link",
+                        "name": "social_network_link",
+                        "type": "link",
+                        "instructions": "Add link to Your social network page",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "array"
+                    },
+                    {
+                        "key": "field_5b978612b7dcf",
+                        "label": "Social Network Icon",
+                        "name": "social_network_icon",
+                        "type": "image",
+                        "instructions": "Add social network icon",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "return_format": "url",
+                        "preview_size": "thumbnail",
+                        "library": "all",
+                        "min_width": "",
+                        "min_height": "",
+                        "min_size": "",
+                        "max_width": "",
+                        "max_height": "",
+                        "max_size": "",
+                        "mime_types": ""
+                    }
+                ]
+            },
+            {
+                "key": "field_5b978ffb85af7",
+                "label": "Copyright",
+                "name": "snmac_copyright",
+                "type": "text",
+                "instructions": "Add author credits",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "&#x24B8;",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": 100
+            },
+            {
+                "key": "field_5b97907585af8",
+                "label": "Imprint",
+                "name": "snmac_imprint",
+                "type": "radio",
+                "instructions": "Add imprint",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": [
+                    "Image",
+                    "Text"
+                ],
+                "allow_null": 0,
+                "other_choice": 0,
+                "save_other_choice": 0,
+                "default_value": "",
+                "layout": "vertical",
+                "return_format": "value"
+            },
+            {
+                "key": "field_5b979135372ba",
+                "label": "Imprint Image",
+                "name": "snmac_imprint_image",
+                "type": "image",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "array",
+                "preview_size": "thumbnail",
+                "library": "all",
+                "min_width": "",
+                "min_height": "",
+                "min_size": "",
+                "max_width": "",
+                "max_height": "",
+                "max_size": "",
+                "mime_types": ""
+            },
+            {
+                "key": "field_5b979153372bb",
+                "label": "Imprint Text",
+                "name": "snmac_imprint_text",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": "",
+                "maxlength": ""
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page_template",
+                    "operator": "==",
+                    "value": "templates\/homepage.php"
+                }
+            ]
+        ],
+        "menu_order": 5,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": 1,
+        "description": ""
+    }
+]
